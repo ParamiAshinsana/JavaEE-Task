@@ -56,7 +56,7 @@ public class User extends HttpServlet {
         System.out.println("\n");
 
         System.out.println("Request URI : "+req.getRequestURI());
-        System.out.println("Request URL : "+req.getRequestURL()+"?"+req.getQueryString());
+        System.out.println("Custom Headers : "+req.getRequestURL()+"?"+req.getQueryString());
         System.out.println("\n");
     }
 
